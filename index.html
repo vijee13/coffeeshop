@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew&Bloom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Brew&Bloom</h1>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#home">Menu</a></li>
+                <li><a href="#home">Contact</a></li>
+                <li><button id="dark-mode-toggle">Dark Mode</button></li>
+            </ul>
+        </nav>
+        <button id="menu-toggle"></button>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Brew&Bloom Coffee Shop</h2>
+        <p>Brew & Bloom – Where Every Sip Tells a Story!
+
+            Welcome to Brew & Bloom, a cozy haven where rich aromas, artisanal brews, and warm conversations blend seamlessly. Our handcrafted coffee is more than just a drink—it’s an experience. From bold espresso shots to creamy lattes, every cup is brewed with passion and served with a touch of bloom.
+            
+            Whether you're here to kickstart your day, unwind with friends, or find your next favorite roast, Brew & Bloom is your perfect escape. Step inside, take a sip, and let the flavors bloom! ☕✨</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="download.jpg">
+            <p>Espresso-$3.00</p>
+            <button class="order-btn" data-item="Espresso" data-price="3">Order</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images (1).jpg">
+            <p>Cappuchino-$4.00</p>
+            <button class="order-btn" data-item="Cappuchino" data-price="4">Order</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images.jpg">
+            <p>Latte-$6.00</p>
+            <button class="order-btn" data-item="Latte" data-price="6">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="icedmocha.jpg">
+            <p>Iced Mocha-$7.00</p>
+            <button class="order-btn" data-item="icedmocha" data-price="7">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="irishcoffee.jpg">
+            <p>Irish Coffee-$6.5.00</p>
+            <button class="order-btn" data-item="irishcoffee" data-price="6.5">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="affogato.jpg">
+            <p>Affogato-$10.00</p>
+            <button class="order-btn" data-item="affogato" data-price="10">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="viennacoffee.jpg">
+            <p>Vienna Coffee-$16.00</p>
+            <button class="order-btn" data-item="viennacoffee" data-price="16">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="turkish.jpg">
+            <p>Turkish Coffee-$14.00</p>
+            <button class="order-btn" data-item="turkish" data-price="14">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="rafcoffee.jpg">
+            <p>Raf Coffee-$11.00</p>
+            <button class="order-btn" data-item="rafcoffee" data-price="11">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="glacecoffee.jpg">
+            <p>Glace Coffee-$7.80</p>
+            <button class="order-btn" data-item="glacecoffee" data-price="7.8">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="flatwhite.jpg">
+            <p>Flat White-$6.00</p>
+            <button class="order-btn" data-item="flatwhite" data-price="6">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="caramelfrape.jpg">
+            <p>Caramel Frape-$26.00</p>
+            <button class="order-btn" data-item="caramelfrape" data-price="26">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="caramelmachioto.jpg">
+            <p>Caramel Machioto-$20.00</p>
+            <button class="order-btn" data-item="caramelmachioto" data-price="20">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="bicerian.jpg">
+            <p>Bicerian-$15.00</p>
+            <button class="order-btn" data-item="bicerian" data-price="15">Order</button>
+        </div>
+        <div class="menu-item">
+            <img src="americano.jpg">
+            <p>Americano-$12.00</p>
+            <button class="order-btn" data-item="americano" data-price="12">Order</button>
+        </div>
+    </section>
+
+    <section id="order-summary">
+        <h2>Your Order</h2>
+        <ul id="order-list"></ul>
+        <p><strong>Total:</strong> $<span id="total-price">0.00</span></p>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@brew&bloom.com</p>
+        <p>Phone: +123 456 789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Brew&Bloom. All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
